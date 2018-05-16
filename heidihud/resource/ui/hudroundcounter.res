@@ -19,7 +19,7 @@
 
 		"RoundIndicatorPanel_kv"
 		{
-			"ypos"				"4"
+			"ypos"				"3"
 			"wide"				"6"
 			"tall"				"6"
 			"zpos"				"7"
@@ -29,7 +29,7 @@
 
 		"RoundWinPanelRed_kv"
 		{
-			"ypos"				"-2"
+			"ypos"				"-3"
 			"wide"				"17"
 			"tall"				"17"
 			"zpos"				"8"
@@ -39,7 +39,7 @@
 
 		"RoundWinPanelBlue_kv"
 		{
-			"ypos"				"-2"
+			"ypos"				"-3"
 			"wide"				"17"
 			"tall"				"17"
 			"zpos"				"8"
@@ -48,20 +48,60 @@
 		}
 	}	
 
-	"Background"
+	"BackgroundBlue"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"o3.833"
-		"tall"			"35"
-
-		"backgroundtype"		"2"
+		"ControlName"			"ScalableImagePanel"
+		"fieldName"				"BackgroundBlue"
+		"xpos"					"c-38"
+		"ypos"					"0"
+		"zpos"					"0"
+		"wide"					"39"
+		"tall"					"10"
+		"image"					"../HUD/color_panel_blu"
 		"proportionaltoparent"	"1"
-			
-		"image"					"../hud/comp_round_timer"
-		"scaleimage"			"1"
+		
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
+	}
+
+	"BackgroundRed"
+	{
+		"ControlName"			"ScalableImagePanel"
+		"fieldName"				"BackgroundRed"
+		"xpos"					"c1"
+		"ypos"					"0"
+		"zpos"					"0"
+		"wide"					"39"
+		"tall"					"10"
+		"image"					"../HUD/color_panel_red"
+		"proportionaltoparent"	"1"
+		
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height"	"0"
+	}
+	
+	"BackgroundGrey"
+	{
+		"ControlName"			"ScalableImagePanel"
+		"fieldName"				"BackgroundGrey"
+		"xpos"					"c-40"
+		"ypos"					"-2"
+		"zpos"					"-1"
+		"wide"					"81"
+		"tall"					"26"
+		"image"					"../HUD/color_panel_brown"
+		"proportionaltoparent"	"1"
+		
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		
+		"draw_corner_width"		"3"
+		"draw_corner_height"	"3"
 	}
 }

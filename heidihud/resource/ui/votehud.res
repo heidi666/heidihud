@@ -10,8 +10,8 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-				
+		"border"		"TFFatLineBorder"
+		
 		"PassedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -40,7 +40,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
+			"font"			"surface11"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 		}
@@ -59,7 +59,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"surface10"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 			"noshortcutsyntax" "1"
@@ -76,7 +76,7 @@
 		"tall"			"144"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"TFFatLineBorder"
 		
 		"Header"
 		{
@@ -92,7 +92,7 @@
 			"textAlignment"		"north-west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"surface10"
 			"wrap"			"1"
 			"fgcolor_override"	"128 128 128 255"
 		}
@@ -103,7 +103,7 @@
 			"fieldName"		"Issue"
 			"xpos"			"10"
 			"ypos"			"22"
-			"wide"			"120"
+			"wide"			"130"
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
@@ -111,25 +111,10 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
+			"font"			"surface11"
 			"fgcolor_override"	"255 255 255 255"
 			"wrap"			"1"
 			"noshortcutsyntax" "1"
-		}
-
-		"TargetAvatarImage"
-		{
-			"ControlName"	"CAvatarImagePanel"
-			"fieldName"		"TargetAvatarImage"
-			"xpos"			"10"
-			"ypos"			"23"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			""
-			"scaleImage"	"1"	
-			"color_outline"	"52 48 45 255"
 		}
 		
 		// divider
@@ -162,7 +147,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"surface10"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -194,7 +179,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
+			"font"			"surface11"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -213,7 +198,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"surface10"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -245,7 +230,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
+			"font"			"surface11"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -264,7 +249,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"surface10"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -296,7 +281,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"surface10"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -328,7 +313,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"surface10"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -372,7 +357,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"surface10"
 			"fgcolor_override"	"128 128 128 255"
 		}
 		
@@ -407,8 +392,8 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-				
+		"border"		"TFFatLineBorder"
+		
 		"FailedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -437,7 +422,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
+			"font"			"surface11"
 			"wrap"			"1"
 			"fgcolor_override"	"200 30 30 255"
 		}
@@ -456,7 +441,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"surface10"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 		}		
@@ -473,8 +458,8 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-				
+		"border"		"TFFatLineBorder"
+		
 		"FailedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -503,7 +488,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
+			"font"			"surface11"
 			"wrap"			"1"
 			"fgcolor_override"	"200 30 30 255"
 		}
@@ -522,7 +507,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"surface10"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 		}		
@@ -546,12 +531,12 @@
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackground"	"0"
 
-		"header_font"		"ItemFontNameLarge"
-		"header_fgcolor"	"Orange"
+		"header_font"		"surface14"
+		"header_fgcolor"	"255 255 255 255"
 
 		"issue_width"		"180"		
-		"issue_font"		"ItemFontNameSmall"
-		"issue_fgcolor"		"TanLight"
+		"issue_font"		"surface10"
+		"issue_fgcolor"		"255 255 255 255"
 		"issue_fgcolor_disabled"	"TanDark"
 		
 		"parameter_width"	"200"
@@ -560,7 +545,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"surface20"
 			"labelText"		"#TF_Vote_Title"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -572,8 +557,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"0"
+			"fgcolor"		"255 255 255 255"
 		}
-									
+		
 		"VoteSetupList"
 		{
 			"ControlName"	"SectionedListPanel"
@@ -613,7 +599,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ComboLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"surface11"
 			"labelText"		"%combo_label%"
 			"textAlignment"	"east"
 			"xpos"			"5"
@@ -630,7 +616,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBox"
-			"Font"				"HudFontSmallestBold"
+			"Font"				"surface11"
 			"xpos"				"85"
 			"ypos"				"245"
 			"zpos"				"1"
@@ -675,7 +661,7 @@
 			"brighttext"	"0"
 			"Command"		"CallVote"
 			"Default"		"0"
-			"font"			"HudFontSmallBold"
+			"font"			"surface15"
 		}
 		"Button1"
 		{
@@ -696,7 +682,7 @@
 			"brighttext"	"0"
 			"Command"		"Close"
 			"Default"		"0"
-			"font"			"HudFontSmallBold"
+			"font"			"surface15"
 		}
 	}
 }
