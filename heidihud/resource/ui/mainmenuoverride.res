@@ -717,11 +717,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c5"
+		"xpos"			"c0"
 		"ypos"			"65"
 		"zpos"			"1"
 		"wide"			"300"
-		"tall"			"350"
+		"tall"			"343"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
@@ -1096,8 +1096,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"102"
+		"xpos"			"c90"
+		"ypos"			"65"
 		"zpos"			"10"
 		"wide"			"210"
 		"tall"			"80"
@@ -1627,7 +1627,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
-		"xpos"			"c-85"
+		"xpos"			"c-125"
 		"ypos"			"r50"
 		"zpos"			"13"
 		"wide"			"32"
@@ -1782,5 +1782,3 @@
 		}
 	}
 }
-
-// gamemenu
