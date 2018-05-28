@@ -1627,7 +1627,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
-		"xpos"			"c-125"
+		"xpos"			"c-140"
 		"ypos"			"r50"
 		"zpos"			"13"
 		"wide"			"32"
@@ -1653,7 +1653,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"textinsetx"	"25"
-		"use_proportional_insets" "1"
+		"use_proportional_insets" "1" 
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
 		"dulltext"		"0"
