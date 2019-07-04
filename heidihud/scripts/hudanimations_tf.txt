@@ -2248,3 +2248,8 @@ event DelayQuestMapClose
 	// For real close
 	FireCommand	1.0 "close"
 }
+
+event ScopeRemoval
+{
+    Animate HudScope Position	"9999 9999" Linear 0.0 0.0
+}
