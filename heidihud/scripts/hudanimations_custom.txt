@@ -10,7 +10,7 @@ event HitMarker
 	Animate DamageAccountValue		Alpha	"0"		linear 10.0 0.2
 	Animate DamageAccountValueBG	Alpha	"255"	linear 0.0 0.0
 	Animate DamageAccountValueBG	Alpha	"0"		linear 10.0 0.2
-	
+
 	Animate CrosshairXX	FgColor	"R G B Opacity"	linear 0.0 0.00001
 	Animate CrosshairXX	FgColor	"R G B Opacity"	linear 0.15 0.15001
 	// The first line animates your HUD crosshair when you hit someone.
@@ -45,16 +45,16 @@ event HudLowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage	Alpha	"255"	linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage	Alpha	"0"		linear 0.125 0.075
-	
+
 	Animate	AmmoInClip			FgColor	"Low-Ammo Clip"		linear 0.0 0.0
 	Animate AmmoInClipShadow	FgColor	"Low-Ammo Shadow"	linear 0.0 0.0
-	
+
 	Animate	AmmoInReserve		FgColor	"Low-Ammo Reserve"	linear 0.0 0.0
 	Animate AmmoInReserveShadow	FgColor	"Low-Ammo Shadow"	linear 0.0 0.0
-	
+
 	Animate	AmmoNoClip			FgColor	"Low-Ammo Clip"		linear 0.0 0.0
 	Animate AmmoNoClipShadow	FgColor	"Low-Ammo Shadow"	linear 0.0 0.0
-	
+
 	RunEvent HudLowAmmoPulseLoop 0.25
 }
 
@@ -62,13 +62,13 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse		0.0
 	StopEvent HudLowAmmoPulseLoop	0.0
-	
+
 	Animate	AmmoInClip			FgColor	"Ammo in Clip"		linear 0.0 0.0
 	Animate AmmoInClipShadow	FgColor	"0 0 0 255"			linear 0.0 0.0
-	
+
 	Animate	AmmoInReserve		FgColor	"Ammo in Reserve"	linear 0.0 0.0
 	Animate AmmoInReserveShadow	FgColor	"0 0 0 255"			linear 0.0 0.0
-	
+
 	Animate	AmmoNoClip			FgColor	"Ammo in Clip"		linear 0.0 0.0
 	Animate AmmoNoClipShadow	FgColor	"0 0 0 255"			linear 0.0 0.0
 }
@@ -93,7 +93,7 @@ event HudMedicCharged
 	Animate ChargeMeter	FgColor	"Ubercharge Full 1"		linear 0.0 0.6
 	Animate ChargeMeter	FgColor	"Ubercharge Full 2"		linear 0.6 0.6
 	Animate ChargeLabel	FgColor	"UberCharge Label Full"	linear 0.0 0.0
-	
+
 	RunEvent HudMedicChargedLoop 1.2
 }
 
@@ -101,7 +101,7 @@ event HudMedicChargedStop
 {
 	StopEvent HudMedicCharged		0.0
 	StopEvent HudMedicChargedLoop	0.0
-	
+
 	Animate ChargeMeter	FgColor	"Ubercharge Bar"	linear 0.0 0.0001
 	Animate ChargeLabel	FgColor	"Ubercharge Label"	linear 0.0 0.0
 }
